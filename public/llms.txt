@@ -1,0 +1,31 @@
+# Aarti Sangrah ki Duniya
+
+> The complete world of Hindu aartis — Hindi lyrics with English transliteration, translation, and audio for every major deity.
+
+Aarti Sangrah ki Duniya (आरती संग्रह की दुनिया) is a trilingual Hindu devotional PWA. Every aarti is presented in Hindi Devanagari, English transliteration, and English translation, with synced audio, karaoke mode, favorites, reminders, and offline support. Built by Aayush Sharma.
+
+## Pages
+
+- [Home](/): Browse all deities and the daily aarti.
+- [Favorites](/favorites): Your saved aartis stored locally.
+- [About the Developer](/about-developer): About Aayush Sharma, the creator.
+
+## Deities
+
+- [Ganesh](/deity/ganesh): Ganesh aartis including Jai Ganesh Deva.
+- [Shiv](/deity/shiv): Shiv aartis including Om Jai Shiv Omkara.
+- [Vishnu](/deity/vishnu): Vishnu aartis including Om Jai Jagdish Hare.
+- [Lakshmi](/deity/lakshmi): Lakshmi aartis including Om Jai Lakshmi Mata.
+- [Hanuman](/deity/hanuman): Hanuman aartis and Chalisa.
+- [Durga](/deity/durga): Durga aartis including Jai Ambe Gauri.
+- [Krishna](/deity/krishna): Krishna aartis and bhajans.
+- [Ram](/deity/ram): Ram aartis including Shri Ram Aarti.
+- [Sai Baba](/deity/sai): Sai Baba aartis.
+- [Surya](/deity/surya): Surya Dev aartis.
+- [Shani](/deity/shani): Shani Dev aartis.
+- [Saraswati](/deity/saraswati): Saraswati aartis.
+
+## Optional
+
+- [Sitemap](/sitemap.xml)
+- [Robots](/robots.txt)

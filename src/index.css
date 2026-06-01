@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Tiro+Devanagari+Hindi:ital@0;1&family=Prata&family=Outfit:wght@300;400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 30 25% 97%;
+    --foreground: 15 40% 12%;
+
+    --card: 35 30% 95%;
+    --card-foreground: 15 40% 12%;
+
+    --popover: 30 25% 97%;
+    --popover-foreground: 15 40% 12%;
+
+    --primary: 25 85% 45%;
+    --primary-foreground: 40 100% 97%;
+
+    --secondary: 340 60% 25%;
+    --secondary-foreground: 40 100% 97%;
+
+    --muted: 35 20% 90%;
+    --muted-foreground: 15 15% 45%;
+
+    --accent: 42 90% 55%;
+    --accent-foreground: 15 40% 12%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 35 25% 85%;
+    --input: 35 25% 85%;
+    --ring: 25 85% 45%;
+
+    --radius: 0.75rem;
+
+    --temple-gold: 42 90% 55%;
+    --temple-saffron: 25 85% 45%;
+    --temple-maroon: 340 60% 25%;
+    --temple-cream: 40 40% 94%;
+    --temple-dark: 15 40% 12%;
+
+    --gradient-devotional: linear-gradient(135deg, hsl(340 60% 25%), hsl(25 85% 35%));
+    --gradient-gold: linear-gradient(135deg, hsl(42 90% 55%), hsl(35 80% 45%));
+    --gradient-warm: linear-gradient(180deg, hsl(30 25% 97%), hsl(35 30% 92%));
+
+    --shadow-warm: 0 8px 32px -8px hsl(25 85% 45% / 0.2);
+    --shadow-card: 0 4px 16px -4px hsl(15 40% 12% / 0.1);
+
+    --sidebar-background: 0 0% 98%;
+    --sidebar-foreground: 240 5.3% 26.1%;
+    --sidebar-primary: 240 5.9% 10%;
+    --sidebar-primary-foreground: 0 0% 98%;
+    --sidebar-accent: 240 4.8% 95.9%;
+    --sidebar-accent-foreground: 240 5.9% 10%;
+    --sidebar-border: 220 13% 91%;
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+
+  .dark {
+    --background: 15 20% 8%;
+    --foreground: 35 30% 90%;
+
+    --card: 15 18% 12%;
+    --card-foreground: 35 30% 90%;
+
+    --popover: 15 20% 10%;
+    --popover-foreground: 35 30% 90%;
+
+    --primary: 30 85% 50%;
+    --primary-foreground: 15 40% 8%;
+
+    --secondary: 340 50% 35%;
+    --secondary-foreground: 35 30% 90%;
+
+    --muted: 15 15% 18%;
+    --muted-foreground: 35 15% 55%;
+
+    --accent: 42 80% 50%;
+    --accent-foreground: 15 40% 8%;
+
+    --destructive: 0 70% 50%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 15 15% 20%;
+    --input: 15 15% 20%;
+    --ring: 30 85% 50%;
+
+    --temple-gold: 42 80% 50%;
+    --temple-saffron: 30 85% 50%;
+    --temple-maroon: 340 50% 35%;
+    --temple-cream: 15 18% 14%;
+    --temple-dark: 35 30% 90%;
+
+    --gradient-devotional: linear-gradient(135deg, hsl(340 50% 35%), hsl(30 85% 40%));
+    --gradient-gold: linear-gradient(135deg, hsl(42 80% 50%), hsl(35 70% 40%));
+
+    --shadow-warm: 0 8px 32px -8px hsl(30 85% 50% / 0.15);
+    --shadow-card: 0 4px 16px -4px hsl(0 0% 0% / 0.3);
+
+    --sidebar-background: 15 20% 8%;
+    --sidebar-foreground: 35 30% 90%;
+    --sidebar-primary: 30 85% 50%;
+    --sidebar-primary-foreground: 15 40% 8%;
+    --sidebar-accent: 15 15% 15%;
+    --sidebar-accent-foreground: 35 30% 90%;
+    --sidebar-border: 15 15% 20%;
+    --sidebar-ring: 30 85% 50%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+    font-family: 'Outfit', sans-serif;
+  }
+
+  h1, h2, h3 {
+    font-family: 'Prata', serif;
+  }
+
+  .font-devanagari {
+    font-family: 'Tiro Devanagari Hindi', serif;
+  }
+}
+
+@layer utilities {
+  .gradient-devotional {
+    background: var(--gradient-devotional);
+  }
+  .gradient-gold {
+    background: var(--gradient-gold);
+  }
+  .shadow-warm {
+    box-shadow: var(--shadow-warm);
+  }
+  .shadow-card {
+    box-shadow: var(--shadow-card);
+  }
+  .text-gold {
+    color: hsl(var(--temple-gold));
+  }
+  .bg-temple-cream {
+    background-color: hsl(var(--temple-cream));
+  }
+}
